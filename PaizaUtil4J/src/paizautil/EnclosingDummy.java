@@ -1,8 +1,6 @@
 package paizautil;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * JavaはC#と違って静的クラスを作れないので、ダミーのエンクロージングクラスを作って強引にコピペ用のコードを書く。
