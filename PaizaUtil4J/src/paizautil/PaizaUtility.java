@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- *
+ * 注意事項：Javaはstaticクラスを定義出来ないので、innerに持ってく時にstaticを追記する必要がある。
  * @author sugaryo
  */
 public class PaizaUtility
