@@ -1,7 +1,10 @@
 package paizautil;
 
+// static class 問題を回避する為に、余計なエンクロージングクラスを作ってその中にDoとPaizaUtilityを突っ込んだ。
+import paizautil.EnclosingDummy.Do;
+import paizautil.EnclosingDummy.PaizaUtility;
+import paizautil.EnclosingDummy.PaizaUtility.ITestIO;
 
-import paizautil.PaizaUtility.ITestIO;
 
 public class Program
 {
@@ -30,7 +33,7 @@ public class Program
 	}
 
 
-	public static void main( String[] args )
+	public static void main(String[] args)
 	{
 		PaizaUtility.io = new DebugIO();
 
