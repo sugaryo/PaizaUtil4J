@@ -40,7 +40,7 @@ public class EnclosingDummy
 			@Override
 			public String readLine()
 			{
-				return in.next();
+				return in.nextLine();
 			}
 
 			@Override
